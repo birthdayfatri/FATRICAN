@@ -1,6 +1,7 @@
 Andi Irfan Maualan 
 All Rights reserved 
 28 Agustus 2024
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -16,7 +17,7 @@ All Rights reserved
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
+            min-height: 100vh;
             text-align: center;
             color: #ff69b4;
             overflow: hidden;
@@ -26,9 +27,10 @@ All Rights reserved
         .container {
             background: #fff;
             border-radius: 15px;
-            padding: 30px;
+            padding: 20px;
             box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
-            max-width: 600px;
+            max-width: 95%;
+            width: 100%;
             position: relative;
             z-index: 1;
             overflow: hidden;
@@ -52,23 +54,23 @@ All Rights reserved
         }
 
         .title {
-            font-size: 2.5em;
-            margin-bottom: 20px;
+            font-size: 1.8em;
+            margin-bottom: 15px;
             color: #ff4081;
             font-weight: bold;
             animation: fadeInDown 1.5s ease;
         }
 
         .message {
-            font-size: 1.2em;
-            margin-bottom: 20px;
+            font-size: 1em;
+            margin-bottom: 15px;
             color: #333;
             line-height: 1.6;
             animation: fadeInUp 1.5s ease;
         }
 
         .heart {
-            font-size: 2.5em;
+            font-size: 2em;
             color: #ff4081;
             animation: pulse 1s infinite;
         }
@@ -79,21 +81,21 @@ All Rights reserved
         }
 
         .image {
-            margin-top: 20px;
+            margin-top: 15px;
             animation: bounceIn 1s ease;
         }
 
         .image img {
-            width: 150px;
-            height: 150px;
+            width: 120px;
+            height: 120px;
             object-fit: cover;
             border-radius: 50%;
             box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
         }
 
         .signature {
-            font-size: 1em;
-            margin-top: 20px;
+            font-size: 0.9em;
+            margin-top: 15px;
             color: #555;
             animation: fadeInUp 1.5s ease;
         }
@@ -102,10 +104,10 @@ All Rights reserved
             background-color: #ff4081;
             color: #fff;
             border: none;
-            padding: 10px 20px;
-            font-size: 1.1em;
+            padding: 10px 15px;
+            font-size: 1em;
             border-radius: 5px;
-            margin-top: 20px;
+            margin-top: 15px;
             cursor: pointer;
             transition: background-color 0.3s ease, transform 0.3s ease;
             animation: fadeInUp 1.5s ease;
@@ -138,8 +140,8 @@ All Rights reserved
 
         .flower {
             position: absolute;
-            width: 50px;
-            height: 50px;
+            width: 40px;
+            height: 40px;
             background: url('FOTO1.PNG') no-repeat center;
             background-size: contain;
             animation: fall 10s linear infinite;
@@ -187,21 +189,26 @@ All Rights reserved
         /* Responsive Design */
         @media (max-width: 600px) {
             .title {
-                font-size: 2em;
+                font-size: 1.5em;
             }
 
             .message {
-                font-size: 1em;
+                font-size: 0.9em;
             }
 
             .next-btn, .start-btn, .send-btn, .video-btn {
-                font-size: 1em;
-                padding: 8px 16px;
+                font-size: 0.9em;
+                padding: 8px 14px;
             }
 
             .image img {
-                width: 120px;
-                height: 120px;
+                width: 100px;
+                height: 100px;
+            }
+
+            .flower {
+                width: 30px;
+                height: 30px;
             }
         }
     </style>
@@ -325,4 +332,5 @@ All Rights reserved
     </script>
 </body>
 </html>
+
 
