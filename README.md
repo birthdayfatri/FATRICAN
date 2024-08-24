@@ -1,7 +1,6 @@
 Andi Irfan Maualan 
 All Rights reserved 
 28 Agustus 2024
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
