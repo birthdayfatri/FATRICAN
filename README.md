@@ -1,6 +1,4 @@
-Andi Irfan Maualan 
-All Rights reserved 
-28 Agustus 2024
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -12,7 +10,7 @@ All Rights reserved
             font-family: 'Poppins', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #fce4ec;
+            background: linear-gradient(135deg, #fce4ec, #ff8a80);
             display: flex;
             justify-content: center;
             align-items: center;
@@ -27,8 +25,8 @@ All Rights reserved
             background: #fff;
             border-radius: 15px;
             padding: 20px;
-            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
-            max-width: 95%;
+            box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+            max-width: 90%;
             width: 100%;
             position: relative;
             z-index: 1;
@@ -53,48 +51,50 @@ All Rights reserved
         }
 
         .title {
-            font-size: 1.8em;
-            margin-bottom: 15px;
+            font-size: 2em;
+            margin-bottom: 20px;
             color: #ff4081;
             font-weight: bold;
             animation: fadeInDown 1.5s ease;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
         }
 
         .message {
-            font-size: 1em;
-            margin-bottom: 15px;
+            font-size: 1.1em;
+            margin-bottom: 20px;
             color: #333;
             line-height: 1.6;
             animation: fadeInUp 1.5s ease;
         }
 
         .heart {
-            font-size: 2em;
+            font-size: 2.5em;
             color: #ff4081;
             animation: pulse 1s infinite;
+            text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
         }
 
         @keyframes pulse {
             0%, 100% { transform: scale(1); }
-            50% { transform: scale(1.1); }
+            50% { transform: scale(1.2); }
         }
 
         .image {
-            margin-top: 15px;
+            margin-top: 20px;
             animation: bounceIn 1s ease;
         }
 
         .image img {
-            width: 120px;
-            height: 120px;
+            width: 130px;
+            height: 130px;
             object-fit: cover;
             border-radius: 50%;
-            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
         }
 
         .signature {
-            font-size: 0.9em;
-            margin-top: 15px;
+            font-size: 1em;
+            margin-top: 20px;
             color: #555;
             animation: fadeInUp 1.5s ease;
         }
@@ -103,18 +103,19 @@ All Rights reserved
             background-color: #ff4081;
             color: #fff;
             border: none;
-            padding: 10px 15px;
-            font-size: 1em;
+            padding: 12px 20px;
+            font-size: 1.1em;
             border-radius: 5px;
-            margin-top: 15px;
+            margin-top: 20px;
             cursor: pointer;
             transition: background-color 0.3s ease, transform 0.3s ease;
             animation: fadeInUp 1.5s ease;
+            box-shadow: 0 5px 15px rgba(255, 64, 129, 0.4);
         }
 
         .next-btn:hover, .start-btn:hover, .send-btn:hover, .video-btn:hover {
             background-color: #e91e63;
-            transform: scale(1.05);
+            transform: scale(1.1);
         }
 
         @keyframes fadeIn {
@@ -123,18 +124,18 @@ All Rights reserved
         }
 
         @keyframes fadeInDown {
-            from { opacity: 0; transform: translateY(-20px); }
+            from { opacity: 0; transform: translateY(-30px); }
             to { opacity: 1; transform: translateY(0); }
         }
 
         @keyframes fadeInUp {
-            from { opacity: 0; transform: translateY(20px); }
+            from { opacity: 0; transform: translateY(30px); }
             to { opacity: 1; transform: translateY(0); }
         }
 
         @keyframes bounceIn {
             0%, 20%, 40%, 60%, 80%, 100% { transform: translateY(0); }
-            50% { transform: translateY(-15px); }
+            50% { transform: translateY(-20px); }
         }
 
         .flower {
@@ -172,7 +173,7 @@ All Rights reserved
             overflow: hidden;
             max-width: 100%;
             border-radius: 15px;
-            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
             background-color: #000;
         }
 
@@ -188,21 +189,21 @@ All Rights reserved
         /* Responsive Design */
         @media (max-width: 600px) {
             .title {
-                font-size: 1.5em;
+                font-size: 1.6em;
             }
 
             .message {
-                font-size: 0.9em;
+                font-size: 1em;
             }
 
             .next-btn, .start-btn, .send-btn, .video-btn {
-                font-size: 0.9em;
-                padding: 8px 14px;
+                font-size: 1em;
+                padding: 10px 16px;
             }
 
             .image img {
-                width: 100px;
-                height: 100px;
+                width: 110px;
+                height: 110px;
             }
 
             .flower {
@@ -331,5 +332,3 @@ All Rights reserved
     </script>
 </body>
 </html>
-
-
