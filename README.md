@@ -281,7 +281,13 @@
         <div class="video-container">
             <video controls>
                 <source src="awaldanakhir.mp4" type="video/mp4">
-                 <source src="video2.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+         <div class="container video-page">
+        <div class="video-container">
+            <video controls>
+                <source src="video2.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
         </div>
