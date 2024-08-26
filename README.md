@@ -235,7 +235,7 @@
     <div class="container intro">
         <div class="title">Halo Ex Hehehe!</div>
         <div class="message">Kasih masukki namata biar bisaki lanjut:</div>
-        <input type="text" id="userName" placeholder="*Nama Lengkap" style="padding: 10px; font-size: 1.2em; border-radius: 5px; border: 1px solid #ddd; width: calc(100% - 24px); box-sizing: border-box;">
+        <input type="text" id="userName" placeholder="*Fatri Untuk star" style="padding: 10px; font-size: 1.2em; border-radius: 5px; border: 1px solid #ddd; width: calc(100% - 24px); box-sizing: border-box;">
         <button class="start-btn" onclick="startExperience()">Start</button>
     </div>
 
