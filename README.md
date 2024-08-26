@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -5,6 +6,7 @@
     <title>Happy Birthday, Ex!</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
+        /* CSS yang ada */
         body {
             font-family: 'Poppins', sans-serif;
             margin: 0;
@@ -174,6 +176,7 @@
             border-radius: 15px;
             box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
             background-color: #000;
+            margin-bottom: 20px;
         }
 
         .video-container video {
@@ -281,6 +284,13 @@
         <div class="video-container">
             <video controls>
                 <source src="awaldanakhir.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <!-- Video tambahan -->
+        <div class="video-container">
+            <video controls>
+                <source src="video2.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
         </div>
